@@ -12,7 +12,7 @@ int binary_tree_is_complete(const binary_tree_t *tree)
 	if (tree == NULL)
 		return (0);
 
-	return is_complete(tree, 0, binary_tree_size(tree));
+	return (is_complete(tree, 0, binary_tree_size(tree)));
 }
 
 /**
